@@ -17,7 +17,7 @@ public class Lambda {
         //JavaScript (name) => { }
         //Anonymous method or Lambda
 
-        Greetings hi = (name) -> {
+        Greetings hi = (name) -> { //Parameter is the name
             System.out.printf("Hello %s\n", name);
         };
 

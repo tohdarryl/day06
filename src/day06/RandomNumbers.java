@@ -25,7 +25,13 @@ public RandomNumbers(String name, Integer range, List <Integer> numList){
             numList.add(num);
             System.out.printf("%d [%s] %d\n", i ,name ,num);
         }
-        
+        try {
+            // Sleep for 15 sec
+            Thread.sleep(1 * 1000);
+        } catch (InterruptedException e) { 
+            e.printStackTrace();
+        }
+
         
     }
     
